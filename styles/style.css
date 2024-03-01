@@ -12,7 +12,6 @@
 .btn-primary {
     width: 174px;
     height: 52px;
-    ;
     background: #FF5400;
     border: none;
     border-radius: 8px;
@@ -66,7 +65,7 @@
     height: 600px;
     margin: 0 auto;
     margin-top: 20px;
-    background-image: url("/Images/banner - Copy.png");
+    background-image: url("/Images/banner-Copy.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
