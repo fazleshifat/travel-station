@@ -1,0 +1,185 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    ;
+    background: #FF5400;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+/* navbar related styles */
+
+
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 80px;
+}
+
+.nav-logo h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.span-station {
+    color: #FF5400;
+}
+
+.nav {
+    max-width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 40px;
+}
+
+/* banner section related styles */
+
+.banner-section {
+
+    max-width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url("/Images/banner - Copy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    background-color: linear-gradient(to bottom right, red, yellow);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner-container {
+    margin: auto 0;
+    padding: 120px 120px;
+}
+
+.banner-container h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.banner-container p {
+    color: white;
+    padding: 25px 240px;
+}
+
+.banner-container input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+}
+
+.banner-container input:hover {
+    border: none;
+}
+
+.input-placeholder {
+    text-align: center;
+}
+
+.fa-magnifying-glass {
+    color: white;
+    width: 10px;
+}
+
+/* popular section related styles */
+
+.popular-section {
+    max-width: 1400px;
+    height: auto;
+    margin: 100px auto 0;
+
+}
+
+.popular-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popular-text {
+    padding: 10px 100px 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.popular-text h1 {
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.popular-text p {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    width: 530px;
+    font-size: 1rem;
+}
+
+.popular-text ul {
+    padding-left: 25px;
+
+}
+
+.popular-text li {
+    width: 525px;
+    padding-top: 16px;
+
+}
+
+.popular-img img {
+    height: 540px;
+    width: 540px;
+}
+
+/* destination section related styles */
+
+.destination-section {
+    border: 2px solid black;
+    max-width: 1400px;
+    height: auto;
+    margin: 100px auto 0;
+}
+
+.destination-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination-text p {
+    text-align: center;
+    width: 640px;
+    padding-top: 24px;
+}
