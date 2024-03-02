@@ -1,5 +1,89 @@
-@media screen and (max-width:600px;) {
-   .nav-links{
-    display:none;
-   } 
+/* responsive styles for mobile device */
+
+@media screen and (max-width:576px) {
+   .nav {
+      margin-top: -10px;
+      max-width: 100%;
+      justify-content: space-around;
+   }
+
+   .nav-logo img {
+
+      width: 2rem;
+   }
+
+   .nav-logo h2 {
+      font-size: 1.5rem;
+   }
+
+   .nav-links a {
+      display: none;
+   }
+
+   .nav-links img {
+      display: block;
+      width: 2rem;
+   }
+
+
+   /* banner section for mobile */
+
+.banner-section {
+   width: 335px;
+   height: 483px;
+   background-size:auto;
 }
+.banner-container{
+   padding: 20px 0 0;
+}
+.banner-container h1{
+   font-size: 2.1rem;
+}
+.banner-container p{
+    font-size: 1rem;
+    padding: 20px 20px 20px;
+}
+.banner-container input{
+   width: 255px;
+   margin-top: 16px;
+}
+.input-container button{
+   width: 255px;
+   margin: 16px 0 16px;
+}
+
+/* popular section desing for mobile */
+
+   .popular-section{
+      max-width: 335px;
+      padding: 0 20px;
+      margin: 100px 10px 0;
+   }
+
+   .popular-container{
+      flex-direction: column;
+      
+   }
+   .popular-text p {
+      width: 335px;
+  }
+
+   .popular-text ul {
+      padding-left: 25px;
+  
+  }
+  .popular-text li {
+   width: 335px;
+
+}
+
+   .popular-img img{
+      width: 335px;
+      height: 340px;
+      margin-top: 20px;
+   }
+
+   
+
+}
+
