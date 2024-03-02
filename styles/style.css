@@ -79,6 +79,10 @@
 .banner-container {
     margin: auto 0;
     padding: 120px 120px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .banner-container h1 {
@@ -122,7 +126,7 @@
 
 .popular-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .popular-text {
@@ -130,6 +134,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .popular-text h1 {
@@ -188,6 +196,10 @@
     width: 640px;
     padding-top: 24px;
     padding-bottom: 30px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .first-destination-img-row {
@@ -273,7 +285,7 @@
 /* why choose us section related styles */
 
 .why-choose-us-section {
-    border: 2px solid black;
+
     max-width: 1170px;
     height: auto;
     margin: 0 auto;
@@ -301,18 +313,15 @@
 
 .why-choose-us-text p {
     color: rgba(19, 19, 24, 0.70);
-    text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
 }
 
-.why-choose-us-card-container{
+.why-choose-us-card-container {
     padding-top: 45px;
 }
+
 .first-row-card-content {
     display: flex;
     justify-content: space-between;
@@ -351,8 +360,146 @@
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
-.card-3{
+
+.card-3 {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     margin: 24px auto 0;
+}
+
+/* newsletter section related styles */
+
+.newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 100px;
+
+}
+
+.newsletter-content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 422px;
+}
+
+.newsletter-content h3 {
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.newsletter-content p {
+    padding-left: 40px;
+    padding-top: 16px;
+    width: 350px;
+}
+
+.newsletter-content input {
+    width: 393px;
+    height: 52px;
+    margin-left: 40px;
+    margin-top: 24px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.newsletter-content hr {
+    width: 393px;
+    height: 1px;
+    margin-left: 40px;
+    margin-top: 24px;
+    background: rgba(19, 19, 24, 0.018);
+}
+
+.newsletter-content button {
+    margin-top: 24px;
+    margin-left: 40px;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: white;
+}
+
+.savings-card {
+    position: absolute;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    margin-left: 840px;
+    margin-top: 250px;
+}
+
+.savings-card-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* footer section related styles start from here */
+
+.footer-section {
+    margin:100px auto 0;
+    width: 1684px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-content {
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-logo {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 1000;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 400;
+    width: 769px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.footer-icons img {
+    margin-top: 32px;
+}
+
+.footer-hr {
+    width: 872px;
+    height: 1px;
+    background: rgba(165, 42, 42, 0);
+    margin: 33px auto;
+}
+
+.footer-reserved {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 100px;
+    text-align: center;
 }
