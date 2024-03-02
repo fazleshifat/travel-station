@@ -1,9 +1,10 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-.hide{
+.hide {
     display: none;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -399,7 +400,10 @@
 .newsletter-content p {
     padding-left: 40px;
     padding-top: 16px;
-    width: 350px;
+    color: #5A5A5D;
+    font-size:1rem;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .newsletter-content input {
@@ -456,7 +460,7 @@
 /* footer section related styles start from here */
 
 .footer-section {
-    margin:100px auto 0;
+    margin: 100px auto 0;
     width: 1684px;
     height: 502px;
     background: rgba(19, 19, 24, 0.05);

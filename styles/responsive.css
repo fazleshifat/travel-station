@@ -28,62 +28,232 @@
 
    /* banner section for mobile */
 
-.banner-section {
-   width: 335px;
-   height: 483px;
-   background-size:auto;
-}
-.banner-container{
-   padding: 20px 0 0;
-}
-.banner-container h1{
-   font-size: 2.1rem;
-}
-.banner-container p{
-    font-size: 1rem;
-    padding: 20px 20px 20px;
-}
-.banner-container input{
-   width: 255px;
-   margin-top: 16px;
-}
-.input-container button{
-   width: 255px;
-   margin: 16px 0 16px;
-}
+   .banner-section {
+      width: 335px;
+      height: 483px;
+      background-size: auto;
+   }
 
-/* popular section desing for mobile */
+   .banner-container {
+      padding: 20px 0 0;
+   }
 
-   .popular-section{
+   .banner-container h1 {
+      font-size: 2.1rem;
+   }
+
+   .banner-container p {
+      font-size: 1rem;
+      padding: 20px 20px 20px;
+   }
+
+   .banner-container input {
+      width: 255px;
+      margin-top: 16px;
+   }
+
+   .input-container button {
+      width: 255px;
+      margin: 16px 0 16px;
+   }
+
+   /* popular section desing for mobile */
+
+   .popular-section {
       max-width: 335px;
       padding: 0 20px;
       margin: 100px 10px 0;
+
    }
 
-   .popular-container{
+   .popular-container {
+      display: flex;
       flex-direction: column;
-      
    }
+
+
+   .popular-text {
+      flex-direction: column;
+
+   }
+
    .popular-text p {
       width: 335px;
-  }
+   }
 
    .popular-text ul {
       padding-left: 25px;
-  
-  }
-  .popular-text li {
-   width: 335px;
 
-}
+   }
 
-   .popular-img img{
+   .popular-text li {
       width: 335px;
+
+   }
+
+   .popular-img img {
       height: 340px;
+      width: 335px;
       margin-top: 20px;
    }
 
-   
+   /* choose your destination sections related styles for mobile */
 
+   .destination-section {
+      max-width: 335px;
+      border: 2px solid black;
+   }
+
+   .destination-text {
+      text-align: center;
+   }
+
+   .destination-text p {
+      width: 335px;
+   }
+
+   .destination-section img {
+      width: 335px;
+      height: 176px;
+      flex-shrink: 0;
+   }
+
+   .first-destination-img-row,
+   .second-destination-img-row,
+   .third-destination-img-row {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
+
+   .first-destination-img-row {
+      width: 335px;
+   }
+
+   .maldives {
+      padding-bottom: 200px;
+      padding-right: 10px;
+      position: absolute;
+      color: white;
+      font-size: 1.5rem;
+      border: 2px solid tomato;
+   }
+
+   .indonesia {
+      padding-right: 600px;
+      padding-top: 200px;
+      position: absolute;
+      color: white;
+      font-size: 1.5rem;
+      border: 2px solid tomato;
+   }
+
+
+   .srilanka {
+      padding-bottom: 400px;
+      padding-right: 10px;
+      position: absolute;
+      color: white;
+      font-size: 1.5rem;
+      border: 2px solid tomato;
+   }
+
+   .north-america {
+      padding-right: 100px;
+      position: absolute;
+      color: white;
+      font-size: 1.5rem;
+      border: 2px solid tomato;
+   }
+
+   .kashmir {
+      padding-top: 400px;
+      padding-right: 900px;
+      position: absolute;
+      color: white;
+      font-size: 1.5rem;
+      border: 2px solid tomato;
+
+   }
+
+
+   .bangladesh {
+      padding-right: 10px;
+      padding-bottom: 250px;
+      position: absolute;
+      color: white;
+      font-size: 1.5rem;
+      border: 2px solid tomato;
+   }
+
+   .bandarban {
+      padding-top: 200px;
+      padding-right: 500px;
+      position: absolute;
+      color: white;
+      font-size: 1.5rem;
+      border: 2px solid tomato;
+   }
+
+   /* why choose us section */
+
+   .why-choose-us-text p {
+      width: 300px;
+   }
+
+   .card {
+      width: 335px;
+      margin: 20px auto;
+   }
+
+   .card p {
+      width: 335px;
+   }
+
+   .first-row-card-content {
+      display: flex;
+      flex-direction: column;
+   }
+
+
+   /* newsletter section related styles for mobile devices */
+   .newsletter-section {
+      display: flex;
+      flex-direction: column;
+      max-width: 335px;
+
+   }
+
+   .newsletter-content {
+      width: 335px;
+      height: 425px;
+   }
+
+   .newsletter-content h3{
+      padding-left: 24px;
+   }
+   .newsletter-content p{
+      padding-left: 22px;
+   }
+
+   .newsletter-content hr {
+      width: 288px;
+      margin-left: 24px;
+   }
+
+   .newsletter-content input {
+      width: 288px;
+      margin-left: 24px;
+   }
+
+   .newsletter-content button {
+      width: 288px;
+      margin-left: 24px;
+   }
+
+   .savings-content img {
+      width: 335px;
+      height: 300px;
+      margin-top: 18px;
+   }
 }
-
