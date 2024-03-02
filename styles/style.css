@@ -1,9 +1,9 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-.hide {
-    display: none;
-}
+
+
+/* shared styles */
 
 * {
     margin: 0;
@@ -22,6 +22,11 @@
     color: white;
 }
 
+.span-station {
+    color: #FF5400;
+}
+
+
 /* navbar related styles */
 
 
@@ -37,12 +42,9 @@
 
 .nav-logo h2 {
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 1000;
 }
 
-.span-station {
-    color: #FF5400;
-}
 
 .nav {
     max-width: 1170px;
@@ -60,6 +62,12 @@
     font-size: 1rem;
     margin-left: 40px;
 }
+
+/* this is for hiding the menubar in deskstop view */
+.hide {
+    display: none;
+}
+
 
 /* banner section related styles */
 
@@ -92,31 +100,51 @@
 .banner-container h1 {
     color: white;
     font-size: 4rem;
+    font-weight: 800;
 }
 
 .banner-container p {
     color: white;
-    padding: 25px 240px;
+    padding: 60px 240px 60px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
 }
 
 .banner-container input {
-    width: 174px;
     height: 52px;
     border-radius: 8px;
     border: none;
 }
 
-.banner-container input:hover {
+
+.input-background-element{
+    
+
+}
+.input-container{
+    padding: 20px 0px;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-radius: 10px;
+    width:850px ;
+    margin: 0 auto;
+}
+.input-select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
     border: none;
+    padding: 16px 16px;
+    margin: 0 16px;
 }
 
 .input-placeholder {
     text-align: center;
 }
 
-.fa-magnifying-glass {
-    color: white;
-    width: 10px;
+.fa-light{
+    width: 50px;
+    border: 2px solid saddlebrown;
 }
 
 /* popular section related styles */
@@ -401,7 +429,7 @@
     padding-left: 40px;
     padding-top: 16px;
     color: #5A5A5D;
-    font-size:1rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
 }
@@ -414,6 +442,10 @@
     border-radius: 8px;
     border: none;
     background: rgba(19, 19, 24, 0.05);
+}
+.input-placeholder{
+    text-align: start;
+    padding-left: 20px;
 }
 
 .newsletter-content hr {
@@ -467,7 +499,6 @@
 }
 
 .footer-content {
-    /* margin: 0 auto; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -478,6 +509,9 @@
     padding-top: 100px;
     display: flex;
     align-items: center;
+    
+}
+.footer-logo h2{
     font-size: 1.3rem;
     font-weight: 1000;
 }

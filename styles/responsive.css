@@ -30,8 +30,8 @@
 
    .banner-section {
       width: 335px;
-      height: 483px;
-      background-size: auto;
+      height: 583px;
+      background-position: center;
    }
 
    .banner-container {
@@ -39,7 +39,8 @@
    }
 
    .banner-container h1 {
-      font-size: 2.1rem;
+      font-size: 1.5rem;
+      margin-top: 10px;
    }
 
    .banner-container p {
@@ -47,10 +48,18 @@
       padding: 20px 20px 20px;
    }
 
-   .banner-container input {
+   .banner-container .input-select {
       width: 255px;
-      margin-top: 16px;
+      margin-top:16px;
    }
+
+   .input-container{
+      padding: 20px 0px;
+      background-color: rgba(255, 255, 255, 0.411);
+      border-radius: 10px;
+      width:287px;
+      margin: 0 auto;
+  }
 
    .input-container button {
       width: 255px;
@@ -94,14 +103,12 @@
    .popular-img img {
       height: 340px;
       width: 335px;
-      margin-top: 20px;
    }
 
    /* choose your destination sections related styles for mobile */
 
    .destination-section {
       max-width: 335px;
-      border: 2px solid black;
    }
 
    .destination-text {
@@ -207,7 +214,7 @@
    }
 
    .card p {
-      width: 335px;
+      width: 271px;
    }
 
    .first-row-card-content {
@@ -229,10 +236,11 @@
       height: 425px;
    }
 
-   .newsletter-content h3{
+   .newsletter-content h3 {
       padding-left: 24px;
    }
-   .newsletter-content p{
+
+   .newsletter-content p {
       padding-left: 22px;
    }
 
@@ -256,4 +264,26 @@
       height: 300px;
       margin-top: 18px;
    }
+
+
+   /* footer section related styles from here */
+
+   .footer-section {
+      margin: 100px auto 0;
+      width: auto;
+   }
+   .footer-description{
+      width: 287px;
+   }
+
+   .footer-hr {
+      width: 335px;
+      height: 1px;
+  }
+
+  .footer-reserved {
+   margin: 10px auto 30px;
+   }
 }
+
+

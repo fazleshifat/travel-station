@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -36,13 +38,29 @@
         <section class="banner-section ">
             <div class="banner-container">
                 <h1>Explore Your Travel</h1>
-                <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac
-                    quis sapien urna eu phasellus.</p>
-                <div class="input-container">
-                    <input type="text" placeholder="Where go" class="input-placeholder">
-                    <input type="text" placeholder="When" class="input-placeholder">
-                    <input type="text" placeholder="Select Type" class="input-placeholder">
-                    <button class="btn-primary"><i class="fa-regular fa-magnifying-glass"></i>Find Now</button>
+                <p>Embarking on a journey to explore the vast wonders of our world is a venture that ignites the spirit of adventure.</p>
+                <div class="input-background-element">
+                    <div class="input-container">
+                        <select name="cars" id="cars" form="carform" class="input-select">
+                            <option value="volvo">Location</option>
+                            <option value="volvo">Bangladesh</option>
+                            <option value="volvo">Indonesia</option>
+                          </select>
+                        <select name="cars" id="cars" form="carform" class="input-select">
+                            <option value="volvo">When</option>
+                            <option value="volvo">Saturday</option>
+                            <option value="volvo">Monday</option>
+                          </select>
+                        <select name="cars" id="cars" form="carform" placeholder="Select Type" class="input-select">
+                            <option value="volvo">Select Type</option>
+                            <option value="volvo">Medium</option>
+                            <option value="volvo">Luxury</option>
+                          </select>
+                        <button class="btn-primary">Find Now</button>
+                        <!-- <div>
+                            <i class="fa-light fa-magnifying-glass"></i>
+                        </div> -->
+                    </div>
                 </div>
             </div>
         </section>
@@ -53,20 +71,17 @@
     <section class="popular-section">
         <div class="popular-container">
             <div class="popular-text">
-                <h1>Our Popular Tours</h1>
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst
-                    nec nibh pellentesque.</p>
+                <h1>Our <span class="span-station">Popular</span> Tours</h1>
+                <p>Travel Station, a leading travel company dedicated to curating unforgettable journeys for adventurous souls, offers a myriad of captivating tours that cater to diverse tastes.</p>
 
                 <ul>
-                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
-                        erat at .</li>
-                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus
-                        suspendisse nullam.</li>
-                    <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                    <li>Guided tours of iconic landmarks such as the Tower of London, Eiffel Tower, Colosseum, and Prague Castle.</li>
+
+                    <li>Cultural experiences including a gondola ride in Venice, a traditional Czech dinner in Prague, and a wine tasting tour in Tuscany</li>
+
+                    <li>Free time for shopping, dining, and exploration in each city.Comfortable accommodations in centrally located hotels.</li>
                 </ul>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus
-                    ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus
-                    natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+                <p>These are just a few examples of the captivating tours offered by Travel Station. With a commitment to excellence and a passion for exploration, they continue to inspire travelers to discover </p>
 
                 <button class="btn-primary">Read More</button>
             </div>
@@ -80,9 +95,8 @@
     <!-- choose your destination section -->
     <section class="destination-section">
         <div class="destination-text">
-            <h1>Choose Your Destination</h1>
-            <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec
-                nibh pellentesque.</p>
+            <h1>Choose Your <span class="span-station">Destination</span></h1>
+            <p>Choosing the right destination for your next tour is a pivotal decision that can greatly impact the success and enjoyment of your travel experience.</p>
         </div>
 
         <div class="destination-images">
@@ -130,10 +144,8 @@
     <section class="why-choose-us-section">
         <div class="why-choose-us-content">
             <div class="why-choose-us-text">
-                <h1>Why Choose Us</h1>
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst
-                    nec
-                    nibh pellentesque.</p>
+                <h1>Why <span class="span-station">Choose</span> Us</h1>
+                <p> <span class="span-station">"Travel Station"</span> is a straightforward and easy-to-remember name that immediately communicates the agency's primary focus on travel.</p>
             </div>
         </div>
 
@@ -142,23 +154,20 @@
                 <div class="card card-1">
                     <img src="Icons/hotel 1.png" alt="">
                     <h3>Handpicked Hotels</h3>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
-                        sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                    <p>In a world where travel is both a necessity and a luxury, the choice of accommodation can elevate an ordinary trip into an extraordinary experience.</p>
                 </div>
 
                 <div class="card card-2">
                     <img src="Icons/map 1.png" alt="">
                     <h3>World Class Service</h3>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
-                        sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                    <p>In the realm of hospitality, where every detail matters and every interaction leaves a lasting impression, the promise of world-class service.</p>
                 </div>
             </div>
 
             <div class="card card-3">
                 <img src="Icons/price-tag 1.png" alt="">
                 <h3>Best Price Guarantee</h3>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
-                    sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                <p>Our Best Price Guarantee is rooted in transparency and trust, reflecting our unwavering commitment to honesty and integrity in all our dealings.</p>
             </div>
         </div>
     </section>
@@ -167,11 +176,11 @@
 
     <section class="newsletter-section">
         <div class="newsletter-content">
-            <h3>Newsletter</h3>
+            <h3><span class="span-station">Newsletter</span></h3>
             <p>Get your daily dose of travel news & tips. Sign up today!</p>
             <hr>
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
+            <input type="text" placeholder="Enter you name" class="input-placeholder">
+            <input type="email" placeholder="Enter you email" class="input-placeholder">
             <button> Subscribe </button>
         </div>
 
@@ -188,7 +197,7 @@
     </section>
 
     <!-- footer section start from here -->
-    <footer class="footer-section hide">
+    <footer class="footer-section">
         <div class="footer-content">
             <div class="footer-logo"><img src="Images/logo.png" alt="">
                 <h2>Travel<span class="span-station">Station</span>
@@ -209,6 +218,8 @@
 
         <p class="footer-reserved">2017, All Rights Reserved.</p>
     </footer>
+
+    
 
 
 </body>
