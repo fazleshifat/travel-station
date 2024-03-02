@@ -20,6 +20,9 @@
     border: none;
     border-radius: 8px;
     color: white;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 800;
 }
 
 .span-station {
@@ -117,19 +120,16 @@
     border: none;
 }
 
-
-.input-background-element{
-    
-
-}
-.input-container{
+.input-container {
     padding: 20px 0px;
     background-color: rgba(255, 255, 255, 0.411);
     border-radius: 10px;
-    width:850px ;
+    width: 850px;
     margin: 0 auto;
+    position: relative;
 }
-.input-select{
+
+.input-select {
     width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -142,9 +142,13 @@
     text-align: center;
 }
 
-.fa-light{
-    width: 50px;
-    border: 2px solid saddlebrown;
+.fa-solid {
+    color: white;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    padding-top: 10px;
+    margin-left: -85px;
 }
 
 /* popular section related styles */
@@ -234,6 +238,10 @@
     line-height: 26px;
 }
 
+.destination-images h2{
+    font-size: 1.5rem;
+}
+
 .first-destination-img-row {
     display: flex;
     justify-content: center;
@@ -245,14 +253,14 @@
 }
 
 .maldives {
-    padding-right: 600px;
+    margin-right: 600px;
     position: absolute;
     color: white;
     font-size: 1.5rem;
 }
 
 .indonesia {
-    padding-left: 600px;
+    margin-left: 600px;
     position: absolute;
     color: white;
     font-size: 1.5rem;
@@ -268,21 +276,21 @@
 }
 
 .srilanka {
-    padding-right: 800px;
+    margin-right: 800px;
     position: absolute;
     color: white;
     font-size: 1.5rem
 }
 
 .north-america {
-    padding-left: 100px;
+    margin-left: 100px;
     position: absolute;
     color: white;
     font-size: 1.5rem;
 }
 
 .kashmir {
-    padding-left: 900px;
+    margin-left: 900px;
     position: absolute;
     color: white;
     font-size: 1.5rem;
@@ -299,16 +307,16 @@
 
 .bangladesh {
 
-    padding-top: 30px;
-    padding-right: 700px;
+    margin-top: 30px;
+    margin-right: 700px;
     position: absolute;
     color: white;
     font-size: 1.5rem;
 }
 
 .bandarban {
-    padding-top: 30px;
-    padding-left: 500px;
+    margin-top: 30px;
+    margin-left: 500px;
     position: absolute;
     color: white;
     font-size: 1.5rem;
@@ -399,6 +407,33 @@
     margin: 24px auto 0;
 }
 
+/* premium packages related styles */
+
+/* .premium-section {
+    width: 1170px;
+    height: 800px;
+    border: 2px solid black;
+    margin: 100px auto auto;
+}
+
+.premium-section .premium-content {
+    text-align: center;
+}
+
+.premium-content h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.premium-content p {
+    margin: 20px auto 0;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+} */
+
 /* newsletter section related styles */
 
 .newsletter-section {
@@ -443,7 +478,8 @@
     border: none;
     background: rgba(19, 19, 24, 0.05);
 }
-.input-placeholder{
+
+.input-placeholder {
     text-align: start;
     padding-left: 20px;
 }
@@ -474,9 +510,9 @@
     background: #FF5400;
     width: 324px;
     height: 120px;
-    transform: rotate(-19.628deg);
     margin-left: 840px;
     margin-top: 250px;
+    transform: rotate(-19.628deg);
 }
 
 .savings-card-content {
@@ -509,9 +545,10 @@
     padding-top: 100px;
     display: flex;
     align-items: center;
-    
+
 }
-.footer-logo h2{
+
+.footer-logo h2 {
     font-size: 1.3rem;
     font-weight: 1000;
 }

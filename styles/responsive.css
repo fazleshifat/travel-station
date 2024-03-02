@@ -26,7 +26,7 @@
    }
 
 
-   /* banner section for mobile */
+   /* banner section styles for mobile */
 
    .banner-section {
       width: 335px;
@@ -50,20 +50,25 @@
 
    .banner-container .input-select {
       width: 255px;
-      margin-top:16px;
+      margin-top: 16px;
    }
 
-   .input-container{
+   .input-container {
       padding: 20px 0px;
       background-color: rgba(255, 255, 255, 0.411);
       border-radius: 10px;
-      width:287px;
+      width: 287px;
       margin: 0 auto;
-  }
+   }
 
    .input-container button {
       width: 255px;
       margin: 16px 0 16px;
+   }
+
+   .fa-solid {
+      padding-top: 17px;
+      margin-left: -110px;
    }
 
    /* popular section desing for mobile */
@@ -71,7 +76,7 @@
    .popular-section {
       max-width: 335px;
       padding: 0 20px;
-      margin: 100px 10px 0;
+      margin: 100px auto 0;
 
    }
 
@@ -100,9 +105,16 @@
 
    }
 
+   .popular-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
    .popular-img img {
-      height: 340px;
       width: 335px;
+      height: 342px;
+      margin-top: 20px;
    }
 
    /* choose your destination sections related styles for mobile */
@@ -119,10 +131,16 @@
       width: 335px;
    }
 
-   .destination-section img {
+   .destination-images {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+   }
+
+   .destination-images img {
       width: 335px;
-      height: 176px;
-      flex-shrink: 0;
+      height: 175.393px;
+
    }
 
    .first-destination-img-row,
@@ -130,79 +148,73 @@
    .third-destination-img-row {
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
-   }
-
-   .first-destination-img-row {
-      width: 335px;
    }
 
    .maldives {
-      padding-bottom: 200px;
-      padding-right: 10px;
+      margin-bottom: 200px;
+      margin-right: 10px;
       position: absolute;
       color: white;
       font-size: 1.5rem;
-      border: 2px solid tomato;
+
    }
 
    .indonesia {
-      padding-right: 600px;
-      padding-top: 200px;
+      margin-right: 600px;
+      margin-top: 200px;
       position: absolute;
       color: white;
       font-size: 1.5rem;
-      border: 2px solid tomato;
    }
 
 
    .srilanka {
-      padding-bottom: 400px;
-      padding-right: 10px;
+      margin-bottom: 400px;
+      margin-right: 10px;
       position: absolute;
       color: white;
       font-size: 1.5rem;
-      border: 2px solid tomato;
+
    }
 
    .north-america {
-      padding-right: 100px;
+      margin-right: 100px;
       position: absolute;
       color: white;
       font-size: 1.5rem;
-      border: 2px solid tomato;
+
    }
 
    .kashmir {
-      padding-top: 400px;
-      padding-right: 900px;
+      margin-top: 400px;
+      margin-right: 900px;
       position: absolute;
       color: white;
       font-size: 1.5rem;
-      border: 2px solid tomato;
+
 
    }
 
 
    .bangladesh {
-      padding-right: 10px;
-      padding-bottom: 250px;
+      margin-right: 10px;
+      margin-bottom: 250px;
       position: absolute;
       color: white;
       font-size: 1.5rem;
-      border: 2px solid tomato;
+
    }
 
    .bandarban {
-      padding-top: 200px;
-      padding-right: 500px;
+      margin-top: 200px;
+      margin-right: 500px;
       position: absolute;
       color: white;
       font-size: 1.5rem;
-      border: 2px solid tomato;
+
    }
 
-   /* why choose us section */
+   /* why choose us section related styles for mobile */
 
    .why-choose-us-text p {
       width: 300px;
@@ -265,6 +277,17 @@
       margin-top: 18px;
    }
 
+   .savings-card {
+      width: 214.023px;
+      height: 79.268px;
+      margin-left: 118px;
+      margin-top: 633px;
+      transform: rotate(-19.628deg);
+   }
+
+   .savings-card-content {
+      margin-top: 10px;
+   }
 
    /* footer section related styles from here */
 
@@ -272,18 +295,17 @@
       margin: 100px auto 0;
       width: auto;
    }
-   .footer-description{
+
+   .footer-description {
       width: 287px;
    }
 
    .footer-hr {
       width: 335px;
       height: 1px;
-  }
+   }
 
-  .footer-reserved {
-   margin: 10px auto 30px;
+   .footer-reserved {
+      margin: 10px auto 30px;
    }
 }
-
-
