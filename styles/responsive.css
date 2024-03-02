@@ -29,13 +29,15 @@
    /* banner section styles for mobile */
 
    .banner-section {
-      width: 335px;
-      height: 583px;
-      background-position: center;
+      
+      
    }
 
    .banner-container {
+      width: 335px;
+      height: 560px;
       padding: 20px 0 0;
+      background-position: center;
    }
 
    .banner-container h1 {
