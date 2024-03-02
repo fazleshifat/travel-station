@@ -1,6 +1,6 @@
 /* responsive styles for mobile device */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px;) {
    .nav {
       margin-top: -10px;
       max-width: 100%;
@@ -298,9 +298,8 @@
    /* newsletter section related styles for mobile devices */
    .newsletter-container {
       width: 375px;
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
 
    }
 
