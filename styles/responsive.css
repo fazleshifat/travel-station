@@ -72,7 +72,7 @@
    /* popular section desing for mobile */
 
    .popular-section {
-      max-width: 335px;
+      width: 375px;
       padding: 0 20px;
       margin: 100px auto 0;
 
@@ -118,7 +118,7 @@
    /* choose your destination sections related styles for mobile */
 
    .destination-section {
-      max-width: 335px;
+      width: 375px;
    }
 
    .destination-text {
@@ -213,6 +213,9 @@
    }
 
    /* why choose us section related styles for mobile */
+   .why-choose-us-section {
+      max-width: 375px;
+   }
 
    .why-choose-us-text p {
       width: 300px;
@@ -232,12 +235,72 @@
       flex-direction: column;
    }
 
+   /* premimum section design for mobile devices */
+
+   .premium-section {
+      width: 375px;
+      position: relative;
+   }
+
+   .premium-content h1 {
+      margin: 30px 20px 0;
+   }
+
+   .premium-content p {
+      width: 335px;
+      padding: 20px;
+   }
+
+   .premium-card1 {
+      flex-direction: column;
+   }
+
+   .premium-card2 {
+      flex-direction: column-reverse;
+   }
+
+   .premium-card3 {
+      flex-direction: column;
+   }
+
+   .premium-card4 {
+      flex-direction: column-reverse;
+   }
+
+   .packages-name {
+      width: 300px;
+   }
+
+   .package-card img {
+      width: 300px;
+      height: auto;
+
+   }
+
+   .premium-card1 .packages-name h3 {
+      margin-left: 137px;
+   }
+
+   .premium-card2 .packages-name h3 {
+      margin-left: 137px;
+   }
+
+   .premium-card3 .packages-name h3 {
+      margin-left: 137px;
+   }
+
+   .premium-card4 .packages-name h3 {
+      margin-left: 137px;
+   }
+
+
 
    /* newsletter section related styles for mobile devices */
-   .newsletter-section {
+   .newsletter-container {
+      width: 375px;
       display: flex;
       flex-direction: column;
-      max-width: 335px;
+      margin: 0 auto;
 
    }
 
@@ -290,8 +353,8 @@
    /* footer section related styles from here */
 
    .footer-section {
+      width: 375px;
       margin: 100px auto 0;
-      width: auto;
    }
 
    .footer-description {
@@ -306,4 +369,7 @@
    .footer-reserved {
       margin: 10px auto 30px;
    }
+
+
+
 }
