@@ -103,6 +103,7 @@
 
 .banner-container {
     background-image: url('/Images/banner.png');
+    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;

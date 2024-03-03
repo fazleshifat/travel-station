@@ -2,8 +2,8 @@
 
 @media screen and (max-width:576px) {
    .nav {
-      margin-top: -10px;
-      max-width: 100%;
+      margin-top: -10px auto 0;
+      width: 335px;
       justify-content: space-around;
    }
 
@@ -72,10 +72,7 @@
    /* popular section desing for mobile */
 
    .popular-section {
-      width: 400px;
-      padding: 0 20px;
-      margin: 100px auto 0;
-
+      width: 335px;
    }
 
    .popular-container {
@@ -83,36 +80,21 @@
       flex-direction: column;
    }
 
-
-   .popular-text {
-      flex-direction: column;
-
-   }
-
-   .popular-text p {
+   .popular-section p {
       width: 335px;
-   }
-
-   .popular-text ul {
-      padding-left: 25px;
-
    }
 
    .popular-text li {
       width: 335px;
-
    }
 
-   .popular-img {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+   .popular-section button {
+      margin: 16px 0 20px;
    }
 
-   .popular-img img {
+   .popular-section img {
       width: 335px;
       height: 342px;
-      margin-top: 20px;
    }
 
    /* choose your destination sections related styles for mobile */
@@ -215,6 +197,25 @@
    /* why choose us section related styles for mobile */
    .why-choose-us-section {
       max-width: 400px;
+      margin: 0 auto;
+   }
+
+   .why-choose-us-card-container {
+      width: 335px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+   }
+
+   .why-choose-us-content{
+      width: 335px;
+      margin: 0 auto;
+   }
+
+   .first-row-card-content {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
    }
 
    .why-choose-us-text p {
@@ -230,10 +231,7 @@
       width: 271px;
    }
 
-   .first-row-card-content {
-      display: flex;
-      flex-direction: column;
-   }
+
 
    /* premimum section design for mobile devices */
 
@@ -334,14 +332,15 @@
       width: 288px;
       margin-left: 24px;
    }
-   .savings-content{
+
+   .savings-content {
       margin: 0 auto;
    }
 
    .savings-content img {
       width: 335px;
       height: 300px;
-      margin:20px auto;
+      margin: 20px auto;
 
    }
 
