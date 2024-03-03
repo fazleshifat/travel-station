@@ -72,7 +72,7 @@
    /* popular section desing for mobile */
 
    .popular-section {
-      width: 375px;
+      width: 400px;
       padding: 0 20px;
       margin: 100px auto 0;
 
@@ -118,7 +118,7 @@
    /* choose your destination sections related styles for mobile */
 
    .destination-section {
-      width: 375px;
+      width: 400px;
    }
 
    .destination-text {
@@ -214,7 +214,7 @@
 
    /* why choose us section related styles for mobile */
    .why-choose-us-section {
-      max-width: 375px;
+      max-width: 400px;
    }
 
    .why-choose-us-text p {
@@ -238,7 +238,7 @@
    /* premimum section design for mobile devices */
 
    .premium-section {
-      width: 375px;
+      width: 400px;
       position: relative;
    }
 
@@ -298,7 +298,7 @@
    /* newsletter section related styles for mobile devices */
 
    .newsletter-container {
-      width: 375px;
+      width: 400px;
       display: flex;
       flex-direction: column;
       margin: 0 auto;
@@ -360,7 +360,7 @@
    /* footer section related styles from here */
 
    .footer-section {
-      width: 375px;
+      width: 400px;
       margin: 100px auto 0;
    }
 
