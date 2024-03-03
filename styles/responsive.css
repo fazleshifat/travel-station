@@ -297,10 +297,6 @@
 
    /* newsletter section related styles for mobile devices */
 
-   .newsletter-section {
-      margin: 0 auto;
-   }
-
    .newsletter-container {
       width: 375px;
       display: flex;
@@ -312,6 +308,8 @@
    .newsletter-content {
       width: 335px;
       height: 425px;
+      margin: 0 auto;
+
    }
 
    .newsletter-content h3 {
@@ -336,17 +334,21 @@
       width: 288px;
       margin-left: 24px;
    }
+   .savings-content{
+      margin: 0 auto;
+   }
 
    .savings-content img {
       width: 335px;
       height: 300px;
-      margin-top: 18px;
+      margin:20px auto;
+
    }
 
    .savings-card {
       width: 214.023px;
       height: 79.268px;
-      margin-left: 118px;
+      margin-left: 138px;
       margin-top: 633px;
       transform: rotate(-19.628deg);
    }
