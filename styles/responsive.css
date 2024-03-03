@@ -29,13 +29,13 @@
    /* banner section styles for mobile */
 
    .banner-section {
-      width: 335px;
+      max-width: 335px;
       margin: 0 auto;
    }
 
 
    .banner-container {
-      height: 560px;
+      height: 570px;
       padding: 20px 0 0;
       background-position: center;
    }
@@ -203,6 +203,8 @@
    }
 
    /* why choose us section related styles for mobile */
+
+   
    .why-choose-us-section {
       width: 400px;
    }
