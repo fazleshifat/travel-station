@@ -28,9 +28,13 @@
 
    /* banner section styles for mobile */
 
+   .banner-section {
+      width: 335px;
+      margin: 0 auto;
+   }
+
 
    .banner-container {
-      width: 335px;
       height: 560px;
       padding: 20px 0 0;
       background-position: center;
@@ -80,8 +84,11 @@
       flex-direction: column;
    }
 
-   .popular-section p {
+
+   .popular-text p{
+      margin-left:10px;
       width: 335px;
+
    }
 
    .popular-text li {
@@ -109,6 +116,7 @@
 
    .destination-text p {
       width: 335px;
+      margin-left: 10px;
    }
 
    .destination-images {
@@ -196,39 +204,64 @@
 
    /* why choose us section related styles for mobile */
    .why-choose-us-section {
-      max-width: 400px;
-      margin: 0 auto;
+      width: 400px;
    }
 
-   .why-choose-us-card-container {
-      width: 335px;
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
-   }
-
-   .why-choose-us-content{
-      width: 335px;
-      margin: 0 auto;
-   }
-
-   .first-row-card-content {
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
+   .why-choose-us-content {
+      /* text-align: start; */
    }
 
    .why-choose-us-text p {
       width: 300px;
+      margin-right: 50px;
    }
 
-   .card {
+   .first-row-card-content,
+   .why-choose-us-card-container {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .why-choose-us-card-container .card {
       width: 335px;
+      height: 289px;
       margin: 20px auto;
+
+   }
+   .why-choose-us-card-container .card p{
+      width: 260px;
+      padding-right: 50px;
    }
 
-   .card p {
-      width: 271px;
+   .why-choose-us-card-container p{
+      margin-left: 10px;
+   }
+
+
+
+
+
+
+   /* deals and discount section related styles for mobile device */
+   .deal-section {
+      max-width: 400px;
+      margin: 100px auto 50px;
+   }
+
+   .deal-content p {
+      width: 309px;
+   }
+
+   .deal-card-content {
+      margin: 0 auto;
+      width: 335px;
+      height: 500px;
+      background-position: center;
+      margin-top: 20px;
+   }
+
+   .deal-card {
+      display: none;
    }
 
 
@@ -291,6 +324,10 @@
       margin-left: 137px;
    }
 
+   .packages-name button{
+      margin-right: 50px;
+   }
+
 
 
    /* newsletter section related styles for mobile devices */
@@ -315,7 +352,8 @@
    }
 
    .newsletter-content p {
-      padding-left: 22px;
+      margin-left: -20px;
+      
    }
 
    .newsletter-content hr {
@@ -359,14 +397,17 @@
    /* footer section related styles from here */
 
    .footer-section {
-      width: 400px;
+      width: auto;
       margin: 100px auto 0;
    }
 
    .footer-description {
       width: 287px;
    }
+   .footer-description p{
+      margin-left: 20px;
 
+   }
    .footer-hr {
       width: 335px;
       height: 1px;

@@ -103,8 +103,8 @@
 
 .banner-container {
     background-image: url('/Images/banner.png');
-    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     border-radius: 15px;
     margin: auto 0;
@@ -139,7 +139,7 @@
     padding: 20px 0px;
     background-color: rgba(255, 255, 255, 0.411);
     border-radius: 10px;
-    width: 850px;
+    width: 900px;
     margin: 0 auto;
     position: relative;
 }
@@ -422,6 +422,103 @@
     margin: 24px auto 0;
 }
 
+/* deals and discount section related styles */
+
+.deal-section{
+    max-width: 1170px;
+    margin: 100px auto 50px;
+}
+.deal-section h1{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.deal-card-content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-image: url('/Images/Group\ 39.png');
+}
+.deal-card-content-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-image: url('/Images/Group\ 39.png');
+}
+
+.deal-card-content-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-image:url('/Images/Group\ 40.png')
+}
+
+
+.deal-content p{
+    width: 643px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 1.5;
+    margin: 0 auto;
+
+}
+.deal-card-1{
+    margin: 55px 55px 55px 0;
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 570px;
+    height: 380px;
+    border-radius: 10px;
+}
+.deal-card-2{
+    margin: 55px 0 55px 55px;
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 570px;
+    height: 380px;
+    border-radius: 10px;
+}
+.deal-card-3{
+    margin: 55px 55px 55px 0;
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 570px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.deal-card h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.deal-card p{
+    width: 452px;
+    margin: 16px 0 16px 50px;
+}
+.deal-card h4{
+    color: #FF5400;
+}
+.deal-card button{
+    margin-top: 16px;
+}
+.deal-card h3,p,h4,button{
+    margin-left: 50px;
+}
+.deal-card-icon ul{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.deal-card-icon li{
+    text-decoration: none;
+    display: inline-flex;
+    margin-right: 24px;
+    margin: 24px 0;
+}
 
 /* premium packages related styles */
 
